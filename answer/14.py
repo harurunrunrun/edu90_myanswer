@@ -1,0 +1,1 @@
+n,*a=map(int,open(0).read().split());print(sum(abs(i-j)for i,j in zip(sorted(a[:n]),sorted(a[n:]))))
