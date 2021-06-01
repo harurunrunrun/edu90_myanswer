@@ -1,0 +1,2 @@
+#include<iostream>
+using namespace std;long long A[105],N,P,Q,a,i,j,k,l,m;main(){cin>>N>>P>>Q;for(;cin>>A[i],i<N;i++)for(j=i;--j>2;)for(k=j;--k>1;)for(l=k;--l;)for(m=l;m;)A[i]*A[j]%P*A[k]%P*A[l]%P*A[--m]%P-Q||a++;cout<<a<<"\n";}
